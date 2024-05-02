@@ -1,0 +1,24 @@
+{
+  "name": "modulo",
+  "version": "1.0.0",
+  "description": "Modulo Universidad",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/TheLuuiis/MODULO---API.git"
+  },
+  "author": "Luis David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheLuuiis/MODULO---API/issues"
+  },
+  "homepage": "https://github.com/TheLuuiis/MODULO---API#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  }
+}
