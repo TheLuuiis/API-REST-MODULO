@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Url de la conexión a la base de datos
-const mongoURL = 'mongodb://localhost:27017';
+const mongoURL = 'mongodb://admin:admin@mongodb:27017/miapp?authSource=admin';
 
 // Configuramos la conexión a mongoDB
 mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true });
