@@ -22,13 +22,5 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            emailext(
-                subject: "Jenkins Build ${currentBuild.fullDisplayName}",
-                body: "Build ${currentBuild.fullDisplayName} completed of myapp-modulo, 😊",
-                to: "cesar.gonzalez@est.iudigital.edu.co"
-            )
-        }
-    }
+
 }
