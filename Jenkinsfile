@@ -26,7 +26,7 @@ pipeline {
         always {
             emailext(
                 subject: "Jenkins Build ${currentBuild.fullDisplayName}",
-                body: "Build ${currentBuild.fullDisplayName} completed",
+                body: "Build ${currentBuild.fullDisplayName} completed, 😊",
                 to: "cesar.gonzalez@est.iudigital.edu.co"
             )
         }
